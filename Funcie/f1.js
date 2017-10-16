@@ -1,4 +1,4 @@
-//printara
+/*//printara
 function print(a) {
     console.log(a);
 }
@@ -87,4 +87,49 @@ function nadjiPoziciju(stringo, slovo) {
     } return -1;
 
 }
-print(nadjiPoziciju("qwertyuyuiopp", "p"));
+function zamenaRazmaka(string, znak){
+    s=string.toLowerCase();
+    x='';
+    if(znak===undefined){
+        znak="-";
+    }
+    for (var i = 0; i < s.length; i++) {
+        if(s[i]===" " ){
+            x=x+znak;
+        }else {
+            x=x+string[i];
+        }
+    }return x;
+}
+function skracivanjeStringa(string,n){
+    x='';
+    for (var i = 0; i < n+1; i++) {
+        x+=string[i];
+        
+    }
+    x+='...';
+    return x;
+}*/
+function sortStringaBrojeva(string){
+    'use strict'
+    var niz=string.split('');
+    var min, pom;
+    for (var i = 0; i < niz.length; i++) {
+        min=i;
+        for (var j = i+1; j < niz.length; j++) {
+        if(niz[j]<niz[min]){
+        pom=niz[min];
+        niz[min]=niz[j];
+        niz[j]=pom;    
+        }console.log(niz);
+      } 
+      var x='';
+      
+      }for(i=0;i<niz.length;i++){
+        x+=niz[i];
+    } return x;
+}
+console.log(sortStringaBrojeva("46532"));
+
+
+
