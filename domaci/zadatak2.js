@@ -14,4 +14,4 @@
         }
         return s;
     }
-    console.log(nizUStringBezUljeza());
+   console.log(nizUStringBezUljeza());

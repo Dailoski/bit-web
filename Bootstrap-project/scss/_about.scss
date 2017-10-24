@@ -1,0 +1,35 @@
+@import "variables";
+.about {
+    background-color: $green-day;
+    padding-top: 50px;
+    width: 100%;
+    text-align: center;
+    #star {
+        width: 40%;
+        margin: 0px auto;
+    }
+    h1 {
+        text-align: center;
+        width: 100%;
+        color: $white-text;
+    }
+    p{
+        color:$white-text;
+        text-align: left;
+    }
+    button{
+        color:$white-text;
+        background-color: $green-day;
+        border-radius: 5px;
+        border-style: solid;
+        margin: 10px auto 50px auto;
+        img{
+            width: 15px;
+            margin-right: 5px;
+         }
+        span{
+            width:80%;
+        }     
+    }
+
+}

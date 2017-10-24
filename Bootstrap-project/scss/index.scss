@@ -1,0 +1,17 @@
+@import 'variables';
+
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
+body {
+    font-family: Lato;
+}
+
+@import 'navbar';
+
+@import "masthead";
+
+@import "portfolio";
+
+@import "about";
+
+@import "contact";
