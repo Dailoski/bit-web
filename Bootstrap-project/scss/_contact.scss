@@ -11,7 +11,9 @@
     }
     form{
         input{
+            border:none;
             display: block;
+            width:100%;
         }
         button{
             border: solid;
@@ -19,6 +21,10 @@
             border-radius: 5px;
             color:$white-text;
             padding: 5px 10px ;
+        }
+        textarea{
+            width: 100%;
+            border:none;
         }
     }
 }

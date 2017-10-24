@@ -8,7 +8,8 @@
     <title>Document</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb"
         crossorigin="anonymous">
-    <link rel="stylesheet" href="CSS/main.css">
+    <link rel="stylesheet" href="CSS/index.css">
+    <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
 </head>
 
 <body>
@@ -44,79 +45,100 @@
         <div class="container">
             <img src="img\profile.png" alt="">
             <h3>BOOTSTRAP AND SASS</h3>
-            <div id="star">
-                <img class="img-fluid" src="https://images.vexels.com/media/users/3/139950/isolated/preview/3dcf8915e1cdefd7a0fae9b5b46328b5-christmas-star-divider-by-vexels.png"
-                    alt="">
-            </div>
+
             <p>
                 Web Developer - Graphic Artist - User Experience Designer
             </p>
         </div>
     </header>
-    <section>
+    <section class="container">
         <h1>PORTFOLIO</h1>
-        <div id="star">
-            <img class="img-fluid" src="https://images.vexels.com/media/users/3/139950/isolated/preview/3dcf8915e1cdefd7a0fae9b5b46328b5-christmas-star-divider-by-vexels.png"
-                alt="">
-        </div>
-        <div>
-            <div>
-                <img src="img\cabin.png" alt="">
+
+        <div class="row">
+            <div class="col-md-6 margine">
+                <img src="img\cabin.png" alt="" class="img-fluid">
             </div>
-            <div>
-                <img src="img\cake.png" alt="">
+            <div class="col-md-6 margine">
+                <img src="img\cake.png" alt="" class="img-fluid">
             </div>
-            <div>
-                <img src="img\circus.png" alt="">
+            <div class="col-md-6 margine">
+                <img src="img\circus.png" alt="" class="img-fluid">
             </div>
-            <div>
-                <img src="img\game.png" alt="">
+            <div class="col-md-6 margine">
+                <img src="img\game.png" alt="" class="img-fluid">
             </div>
-            <div>
-                <img src="img\safe.png" alt="">
+            <div class="col-md-6 margine">
+                <img src="img\safe.png" alt="" class="img-fluid">
             </div>
-            <div>
-                <img src="img\submarine.png" alt="">
+            <div class="col-md-6 margine">
+                <img src="img\submarine.png" alt="" class="img-fluid">
             </div>
         </div>
 
 
     </section>
-    <div class="container about">
-        
-        <h1>ABOUT</h1>
-        <div id="star">
-            <img class="img-fluid" src="https://images.vexels.com/media/users/3/139950/isolated/preview/3dcf8915e1cdefd7a0fae9b5b46328b5-christmas-star-divider-by-vexels.png"
-                alt="">
-        </div>
-        <p>
-            <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam molestiae quo, nisi vitae dicta aliquam veritatis.
-                Totam magnam iure, exercitationem sint quibusdam molestias aperiam ea. Aspernatur provident excepturi et
-                facere!</span>
-        </p>
-        <p>
-            <span>Numquam minima expedita nisi at rerum. Enim placeat cum ducimus labore, tempore similique ipsum odio veritatis
-                dolor cumque sit! Vitae deserunt possimus blanditiis vel dolorum atque, quam odio qui nulla.</span>
-        </p>
-        <button><img src="http://cdn.mysitemyway.com/etc-mysitemyway/icons/legacy-previews/icons-256/magic-marker-icons-alphanumeric/114550-magic-marker-icon-alphanumeric-information.png"><span>Find Out More</span></button>
-    </div>
-    <div class="container forma">
-        <h1>CONTACT ME</h1>
-        <div id="star">
-                <img class="img-fluid" src="https://images.vexels.com/media/users/3/139950/isolated/preview/3dcf8915e1cdefd7a0fae9b5b46328b5-christmas-star-divider-by-vexels.png"
-                    alt="">
+    <section class="about-section">
+        <div class="container">
+            <div class="row">
+
+                <h1>ABOUT</h1>
+
+
+                <p class="col-md-6 ">
+                    <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam molestiae quo, nisi vitae dicta aliquam
+                        veritatis. Totam magnam iure, exercitationem sint quibusdam molestias aperiam ea. Aspernatur provident
+                        excepturi et facere!
+                    </span>
+                </p>
+                <p class="col-md-6">
+                    <span>Numquam minima expedita nisi at rerum. Enim placeat cum ducimus labore, tempore similique ipsum odio
+                        veritatis dolor cumque sit! Vitae deserunt possimus blanditiis vel dolorum atque, quam odio qui nulla.</span>
+                </p>
+                <button>
+                    <span>Find Out More</span>
+                </button>
             </div>
+        </div>
+    </section>
+    <section class="container">
+
+        <div class="forma">
+            <h1>CONTACT ME</h1>
+
             <form action="">
-            <input type="text" placeholder="Name"><hr>
-            <input type="text" placeholder="Email Adress"><hr>
-            <input type="text" placeholder="Phone Number"><hr>
-            <textarea type="text-box" rows="4" cols="50" placeholder="Message"></textarea><hr>
-            <button type="submit">Send</button>
-            </form>        
-        
-    </div>
+                <input type="text" placeholder="Name">
+                <hr>
+                <input type="text" placeholder="Email Adress">
+                <hr>
+                <input type="text" placeholder="Phone Number">
+                <hr>
+                <textarea type="text-box" placeholder="Message"></textarea>
+                <hr>
+                <button type="submit">Send</button>
+            </form>
+
+        </div>
+    </section>
     <footer>
-        
+        <div class="container kontish">
+
+            <h4>LOCATION</h4>
+            <p>Centar za obrazovanje</p>
+            <p>BIT TECHNOLOGY</p>
+            <p>Nmemanjina4/I, Beograd</p>
+            <h4>AROUND THE WEB</h4>
+            <i class="fa fa-google-plus" aria-hidden="true"></i>
+            <i class="fa fa-facebook" aria-hidden="true"></i>
+            <i class="fa fa-linkedin" aria-hidden="true"></i>
+            <i class="fa fa-twitter" aria-hidden="true"></i>
+            <h4>MORE DETAILS</h4>
+            <p>We bealive that the future of Serbia firmly depends on our ability to scale the number of inviduals involved
+                in the IT sector. That is why founded BIT.</p>
+            <h6>Copyright@bitStudent 2017</h6>
+            <p>Bit thanks to Start Bootstrap!</p>
+
+
+        </div>
     </footer>
 
 
