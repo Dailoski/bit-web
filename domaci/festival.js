@@ -33,7 +33,7 @@ function Genre(zhanr) {
         return this.name.charAt(0).toUpperCase() + zhanr.charAt(this.name.length - 1).toUpperCase();
     }
 
-}
+}  
 
 function Movie(mTitle, mGenre, mLength) {
     this.name = mTitle;
