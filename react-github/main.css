@@ -1,0 +1,12 @@
+@import "~normalize.css";
+@import "./node_modules/materialize-css/dist/css/materialize.css";
+
+body {
+    background: url('http://i.imgur.com/hdbiAn2.png') repeat;  
+}
+.margina {
+    margin: 0 auto;
+}
+.heder {
+    padding-left: 50px;
+}
